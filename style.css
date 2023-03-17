@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
+  height: 400px;
+  width: 100%;
+}
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("https://pbs.twimg.com/card_img/1634517331207397381/SFH4Zg0J?format=jpg&name=small");
+  height: 400px;
+  width: 100%;
+}
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("https://amymhaddad.com/static/44f356996710a7b665c7384a70e0d09e/6aca1/language.jpg");
+}
+
+footer {
+  box-sizing: border-box;
+  top: 170px;
+  align-items: baseline;
+  align-content: baseline;
+  justify-content: baseline;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+footer .on-top {
+  margin-left: 455px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.position-relative {
+  position: relative !important;
+  width: 100%;
+}
